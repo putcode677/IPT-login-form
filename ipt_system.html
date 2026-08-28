@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IPT SYSTEM</title>
+</head>
+<body>
+
+<div class="card">
+  <div class="header">
+    <div class="image">
+    <img src="https://sr2.udom.ac.tz/img/logo.jpg" height="60" alt="Coat of Arms">
+    </div>
+    <div class="title">IPT SYSTEM</div>
+  </div>
+
+  <div class="form-area">
+    <form action="register.php" method="POST">
+    <div class="row">
+      <div class="field">
+        <label>First Name</label>
+        <input type="text" name="first_name" required>
+      </div>
+      <div class="field">
+        <label>Last Name</label>
+        <input type="text" name="last_name" required>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <label>Phone</label>
+        <input type="text" name="phone" required>
+      </div>
+      <div class="field">
+        <label>E-mail</label>
+        <input type="email" name="email" required>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <label>Password</label>
+        <input type="password" name="password" required>
+      </div>
+      <div class="field">
+        <label>Re-type password</label>
+        <input type="password" name="password2" required>
+      </div>
+    </div>
+
+    <div class="submit-row">
+      <button type="submit" class="submit-btn">SUBMIT</button>
+      <button type="button" class="view-btn" onclick="window.location.href='view.php'">VIEW</button>
+    </div>
+    </form>
+  </div>
+
+  <div class="footer">@2026</div>
+</div>
+
+</body>
+</html>
